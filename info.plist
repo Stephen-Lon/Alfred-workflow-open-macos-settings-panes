@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.src.venturaprefpanes</string>
+	<key>category</key>
+	<string>Utilities</string>
+	<key>connections</key>
+	<dict>
+		<key>5812F74E-1C48-4400-BE04-B7532D7E2D1C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2739207C-A263-4FBD-A4E3-E1C7891D9DC1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Stephen Christy</string>
+	<key>description</key>
+	<string>Opens listed macOS 13 settings pane</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Open macOS 13 settings panes</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<true/>
+				<key>items</key>
+				<string>[{"title":"Accessibility","arg":"x-apple.systempreferences:com.apple.preference.universalaccess"},{"title":"AirDrop &amp; Handoff","arg":"x-apple.systempreferences:com.apple.AirDrop-Handoff-Settings.extension"},{"title":"Appearance","arg":"x-apple.systempreferences:com.apple.Appearance-Settings.extension"},{"title":"Apple ID","arg":"x-apple.systempreferences:com.apple.preferences.AppleIDPrefPane"},{"title":"Battery","arg":"x-apple.systempreferences:com.apple.preference.battery"},{"title":"Bluetooth","arg":"x-apple.systempreferences:com.apple.BluetoothSettings"},{"title":"Control Centre","arg":"x-apple.systempreferences:com.apple.ControlCenter-Settings.extension"},{"title":"Date &amp; Time","arg":"x-apple.systempreferences:com.apple.preference.datetime"},{"title":"Displays","arg":"x-apple.systempreferences:com.apple.Displays-Settings.extension"},{"title":"Focus","arg":"x-apple.systempreferences:com.apple.Focus-Settings.extension"},{"title":"Internet Accounts","arg":"x-apple.systempreferences:com.apple.Internet-Accounts-Settings.extension"},{"title":"Keyboard","arg":"x-apple.systempreferences:com.apple.Keyboard-Settings.extension"},{"title":"Languages &amp; Region","arg":"x-apple.systempreferences:com.apple.Localization-Settings.extension"},{"title":"Lock Screen","arg":"x-apple.systempreferences:com.apple.Lock-Screen-Settings.extension"},{"title":"Login Items","arg":"x-apple.systempreferences:com.apple.LoginItems-Settings.extension"},{"title":"Network","arg":"x-apple.systempreferences:com.apple.Network-Settings.extension"},{"title":"Notifications","arg":"x-apple.systempreferences:com.apple.preference.notifications"},{"title":"Printers &amp; Scanners","arg":"x-apple.systempreferences:com.apple.Print-Scan-Settings.extension"},{"title":"Privacy &amp; Security","arg":"x-apple.systempreferences:com.apple.preference.security"},{"title":"Profiles","arg":"x-apple.systempreferences:com.apple.preferences.configurationprofiles"},{"title":"Screen Saver","arg":" x-apple.systempreferences:com.apple.ScreenSaver-Settings.extension"},{"title":"Screen Time","arg":"x-apple.systempreferences:com.apple.preference.screentime"},{"title":"Sharing","arg":"x-apple.systempreferences:com.apple.preferences.sharing"},{"title":"Siri &amp; Spotlight","arg":"x-apple.systempreferences:com.apple.preference.speech"},{"title":"Software Update","arg":"x-apple.systempreferences:com.apple.preferences.softwareupdate"},{"title":"Sound","arg":"x-apple.systempreferences:com.apple.Sound-Settings.extension"},{"title":"Startup Disk","arg":"x-apple.systempreferences:com.apple.Startup-Disk-Settings.extension"},{"title":"Storage","arg":"x-apple.systempreferences:com.apple.settings.Storage"},{"title":"Time Machine","arg":"x-apple.systempreferences:com.apple.Time-Machine-Settings.extension"},{"title":"Touch ID &amp; Password","arg":"x-apple.systempreferences:com.apple.preferences.password"},{"title":"Trackpad","arg":"x-apple.systempreferences:com.apple.Trackpad-Settings.extension"},{"title":"Users &amp; Groups","arg":"x-apple.systempreferences:com.apple.Users-Groups-Settings.extension"},{"title":"Wallet &amp; Apple Pay","arg":"x-apple.systempreferences:com.apple.WalletSettingsExtension"},{"title":"Wallpaper","arg":"x-apple.systempreferences:com.apple.Wallpaper-Settings.extension"},{"title":"Wi-Fi","arg":"x-apple.systempreferences:com.apple.wifi-settings-extension"}]</string>
+				<key>keyword</key>
+				<string>{var:keyword}</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Select the preferene pane you wish to open</string>
+				<key>title</key>
+				<string>Open chosen macOS 12 preference pane</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>5812F74E-1C48-4400-BE04-B7532D7E2D1C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>2739207C-A263-4FBD-A4E3-E1C7891D9DC1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Note 
+
+This workflow has been tested on macOS 13.0 and will not work on previous macOS versions. It is possible future changes (whether in macOS 13 or later) will stop this workflow working—either partially or fully.
+
+
+# Usage
+
+This workflow lists, in response to the user configurable `syset` keyword, various macOS System Preference panes (which are still called `Preference panes` even under macOS 13) to which I have discovered programable access. When you select the relevant pane from the alphabetical, searchable list simply press &lt;Enter&gt; to display the pane.
+
+I have chosen to keep the list of panes in alphabetical order—rather than allowing Alfred to sort them based on usage—as they seem to me easier to browse in that order. If you feel there are too many panes listed by all means delete from the list filter those you do not wish to see.
+
+# Acknowledgment
+
+I am indebted to comments on [this Github post](https://gist.github.com/rmcdongit/f66ff91e0dad78d4d6346a75ded4b751?permalink_comment_id=4258811) for enabling me to find identifiers for various Preference panes.</string>
+	<key>uidata</key>
+	<dict>
+		<key>2739207C-A263-4FBD-A4E3-E1C7891D9DC1</key>
+		<dict>
+			<key>xpos</key>
+			<real>260</real>
+			<key>ypos</key>
+			<real>35</real>
+		</dict>
+		<key>5812F74E-1C48-4400-BE04-B7532D7E2D1C</key>
+		<dict>
+			<key>note</key>
+			<string>The list of the various System Settings panes that can be opened by this workflow</string>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>35</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>syset</string>
+				<key>placeholder</key>
+				<string>syset</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The default keyword to run this workflow is "syset". You can change it here.</string>
+			<key>label</key>
+			<string>Workflow keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>1.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
