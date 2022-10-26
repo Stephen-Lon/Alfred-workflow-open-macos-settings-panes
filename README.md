@@ -1,4 +1,4 @@
-# Alfred-workflow-open-macos-13-settings-panes
+# Alfred-workflow-open-macos-settings-panes
 Open macOS 13 settings panes from list
 # Note 
 
