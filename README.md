@@ -1,5 +1,5 @@
 # Alfred-workflow-open-macos-settings-panes
-Open macOS 13 settings panes from list
+Open macOS Settings Panes from list
 # Note 
 
 This workflow has been tested on macOS 13.0 and will not work on previous macOS versions. It is possible future changes (whether in macOS 13 or later) will stop this workflow working—either partially or fully.
