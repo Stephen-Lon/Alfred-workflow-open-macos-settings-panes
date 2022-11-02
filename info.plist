@@ -25,11 +25,11 @@
 	<key>createdby</key>
 	<string>Stephen Christy</string>
 	<key>description</key>
-	<string>Opens listed macOS 13 settings pane</string>
+	<string>Opens listed Settings Pane</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Open macOS 13 settings panes</string>
+	<string>Open macOS Settings Panes</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -42,7 +42,7 @@
 				<key>fixedorder</key>
 				<true/>
 				<key>items</key>
-				<string>[{"title":"Accessibility","arg":"x-apple.systempreferences:com.apple.preference.universalaccess"},{"title":"AirDrop &amp; Handoff","arg":"x-apple.systempreferences:com.apple.AirDrop-Handoff-Settings.extension"},{"title":"Appearance","arg":"x-apple.systempreferences:com.apple.Appearance-Settings.extension"},{"title":"Apple ID","arg":"x-apple.systempreferences:com.apple.preferences.AppleIDPrefPane"},{"title":"Battery","arg":"x-apple.systempreferences:com.apple.preference.battery"},{"title":"Bluetooth","arg":"x-apple.systempreferences:com.apple.BluetoothSettings"},{"title":"Control Centre","arg":"x-apple.systempreferences:com.apple.ControlCenter-Settings.extension"},{"title":"Date &amp; Time","arg":"x-apple.systempreferences:com.apple.preference.datetime"},{"title":"Displays","arg":"x-apple.systempreferences:com.apple.Displays-Settings.extension"},{"title":"Focus","arg":"x-apple.systempreferences:com.apple.Focus-Settings.extension"},{"title":"Internet Accounts","arg":"x-apple.systempreferences:com.apple.Internet-Accounts-Settings.extension"},{"title":"Keyboard","arg":"x-apple.systempreferences:com.apple.Keyboard-Settings.extension"},{"title":"Languages &amp; Region","arg":"x-apple.systempreferences:com.apple.Localization-Settings.extension"},{"title":"Lock Screen","arg":"x-apple.systempreferences:com.apple.Lock-Screen-Settings.extension"},{"title":"Login Items","arg":"x-apple.systempreferences:com.apple.LoginItems-Settings.extension"},{"title":"Network","arg":"x-apple.systempreferences:com.apple.Network-Settings.extension"},{"title":"Notifications","arg":"x-apple.systempreferences:com.apple.preference.notifications"},{"title":"Printers &amp; Scanners","arg":"x-apple.systempreferences:com.apple.Print-Scan-Settings.extension"},{"title":"Privacy &amp; Security","arg":"x-apple.systempreferences:com.apple.preference.security"},{"title":"Profiles","arg":"x-apple.systempreferences:com.apple.preferences.configurationprofiles"},{"title":"Screen Saver","arg":" x-apple.systempreferences:com.apple.ScreenSaver-Settings.extension"},{"title":"Screen Time","arg":"x-apple.systempreferences:com.apple.preference.screentime"},{"title":"Sharing","arg":"x-apple.systempreferences:com.apple.preferences.sharing"},{"title":"Siri &amp; Spotlight","arg":"x-apple.systempreferences:com.apple.preference.speech"},{"title":"Software Update","arg":"x-apple.systempreferences:com.apple.preferences.softwareupdate"},{"title":"Sound","arg":"x-apple.systempreferences:com.apple.Sound-Settings.extension"},{"title":"Startup Disk","arg":"x-apple.systempreferences:com.apple.Startup-Disk-Settings.extension"},{"title":"Storage","arg":"x-apple.systempreferences:com.apple.settings.Storage"},{"title":"Time Machine","arg":"x-apple.systempreferences:com.apple.Time-Machine-Settings.extension"},{"title":"Touch ID &amp; Password","arg":"x-apple.systempreferences:com.apple.preferences.password"},{"title":"Trackpad","arg":"x-apple.systempreferences:com.apple.Trackpad-Settings.extension"},{"title":"Users &amp; Groups","arg":"x-apple.systempreferences:com.apple.Users-Groups-Settings.extension"},{"title":"Wallet &amp; Apple Pay","arg":"x-apple.systempreferences:com.apple.WalletSettingsExtension"},{"title":"Wallpaper","arg":"x-apple.systempreferences:com.apple.Wallpaper-Settings.extension"},{"title":"Wi-Fi","arg":"x-apple.systempreferences:com.apple.wifi-settings-extension"}]</string>
+				<string>[{"imagefile":"29bf524180d498425f1fae871e42ea1624447edb.png","title":"About","arg":"x-apple.systempreferences:com.apple.SystemProfiler.AboutExtension"},{"imagefile":"9dd8742fe2ff502b63a645c74115ec318e59232d.png","title":"Accessibility","arg":"x-apple.systempreferences:com.apple.preference.universalaccess"},{"imagefile":"6d2268100b3681393461496a6eba7daf0ce6f24c.png","title":"AirDrop &amp; Handoff","arg":"x-apple.systempreferences:com.apple.AirDrop-Handoff-Settings.extension"},{"imagefile":"b23606c5a7e9d006774de6bba3cc6e8d23eb7c6f.png","title":"Appearance","arg":"x-apple.systempreferences:com.apple.Appearance-Settings.extension"},{"imagefile":"e9046ca8c02c1a7181bfb308b28d49a09d1875eb.png","title":"Apple ID","arg":"x-apple.systempreferences:com.apple.preferences.AppleIDPrefPane"},{"imagefile":"95c4617aa79be5d0b87ad7513f97cd1b6d97959a.png","title":"Battery","arg":"x-apple.systempreferences:com.apple.preference.battery"},{"imagefile":"5f6447eb3c6eb47e26123ff2a4f4ee74c71fc9b6.png","title":"Bluetooth","arg":"x-apple.systempreferences:com.apple.BluetoothSettings"},{"imagefile":"bea1cb4a6bc637076c21779c4e5fd6e5a9093936.png","title":"Control Centre","arg":"x-apple.systempreferences:com.apple.ControlCenter-Settings.extension"},{"imagefile":"443b07f2bbc807da271beba7362f29b7cdbac073.png","title":"Date &amp; Time","arg":"x-apple.systempreferences:com.apple.preference.datetime"},{"imagefile":"ba4c7a5af72805e21bae46e2433ca61eb6477c9c.png","title":"Desktop &amp; Dock","arg":"x-apple.systempreferences:com.apple.Desktop-Settings.extension"},{"imagefile":"a1b92d6c8cf708253dc9118c850bfd45fb8dd0a9.png","title":"Displays","arg":"x-apple.systempreferences:com.apple.Displays-Settings.extension"},{"imagefile":"91e4ff9aaf974325f6770323f61f16f6cc4b5d29.png","title":"Extensions","arg":"x-apple.systempreferences:com.apple.preferences.extensions"},{"imagefile":"07ae85f266b9c24297b6b095b72975a8f8e4eb42.png","title":"Family","arg":"x-apple.systempreferences:com.apple.preferences.FamilySharingPrefPane","subtitle":""},{"imagefile":"44a74b20468e31358b616173504bbf7b15e9d3bf.png","title":"Focus","arg":"x-apple.systempreferences:com.apple.Focus-Settings.extension"},{"imagefile":"00fd1ae0a9d063bd68be6be831f2c582fcffed38.png","title":"Game Centre","arg":"x-apple.systempreferences:com.apple.Game-Center-Settings.extension"},{"imagefile":"24be727b5d106827a882dcc899454491cebd7644.png","title":"Game Controllers","arg":"x-apple.systempreferences:com.apple.Game-Controller-Settings.extension"},{"imagefile":"1c2a39142d530677525ca067a60f7360f6a5329f.png","title":"General","arg":"x-apple.systempreferences:com.apple.systempreferences.GeneralSettings"},{"imagefile":"213eabfbe8019cd7719939859a04acb7468e56ca.png","title":"Internet Accounts","arg":"x-apple.systempreferences:com.apple.Internet-Accounts-Settings.extension"},{"imagefile":"13e1f22e0fe9142301858c3da4284eec9eb8e550.png","title":"Keyboard","arg":"x-apple.systempreferences:com.apple.Keyboard-Settings.extension"},{"imagefile":"a066803da328acb15d88be4b45c0e7daab1a1c39.png","title":"Languages &amp; Region","arg":"x-apple.systempreferences:com.apple.Localization-Settings.extension"},{"imagefile":"db7f6077f9dfc903e861f2f4fe51ca474e41fa93.png","title":"Lock Screen","arg":"x-apple.systempreferences:com.apple.Lock-Screen-Settings.extension"},{"imagefile":"2f1a9e8282de2342b0169618810927912086523a.png","title":"Login Items","arg":"x-apple.systempreferences:com.apple.LoginItems-Settings.extension"},{"imagefile":"6bb33971f6acf642bd94320cac1e98a3295f58e4.png","title":"Mouse","arg":"x-apple.systempreferences:com.apple.Mouse-Settings.extension"},{"imagefile":"2aa0206c36bb46a09d75235d3b0f618888580a42.png","title":"Network","arg":"x-apple.systempreferences:com.apple.Network-Settings.extension"},{"imagefile":"1d23e371c440469a53bfbe60df4c9769e530729b.png","title":"Notifications","arg":"x-apple.systempreferences:com.apple.preference.notifications"},{"imagefile":"6f564f14ec4084a9fb682408bd9e1223394d236e.png","title":"Passwords","arg":"x-apple.systempreferences:com.apple.Passwords-Settings.extension"},{"imagefile":"f70c7c5124830569df29032024a630c1663e5cb6.png","title":"Printers &amp; Scanners","arg":"x-apple.systempreferences:com.apple.Print-Scan-Settings.extension"},{"imagefile":"182db20292e160b015f59ea7123d3dcda4dd1367.png","title":"Privacy &amp; Security","arg":"x-apple.systempreferences:com.apple.preference.security"},{"imagefile":"38a712d5e6e851ec6620eb3453fc57360d64b165.png","title":"Profiles","arg":"x-apple.systempreferences:com.apple.preferences.configurationprofiles"},{"imagefile":"407042bdcecf4651c695a913dddd00d148bd6405.png","title":"Screen Saver","arg":"x-apple.systempreferences:com.apple.ScreenSaver-Settings.extension"},{"imagefile":"68f5d276618cbd1ffc5c23e1d80549aaeaff3ea5.png","title":"Screen Time","arg":"x-apple.systempreferences:com.apple.preference.screentime"},{"imagefile":"9b4439cebdf1564ef637b6bcab2ae4a0a02d8fbe.png","title":"Sharing","arg":"x-apple.systempreferences:com.apple.preferences.sharing"},{"imagefile":"2889b79312472914f44e612e06c528de1c81ccd2.png","title":"Siri &amp; Spotlight","arg":"x-apple.systempreferences:com.apple.preference.speech"},{"imagefile":"2b66c568b4720e8c13d8883d2c4f0d038a99eab0.png","title":"Software Update","arg":"x-apple.systempreferences:com.apple.preferences.softwareupdate"},{"imagefile":"44dcd0f8e8a4859f7c801b731ed96b8f26d5b2e9.png","title":"Sound","arg":"x-apple.systempreferences:com.apple.Sound-Settings.extension"},{"imagefile":"cc1c2cdec516d3f262bf9d2b68e291b929f1481c.png","title":"Startup Disk","arg":"x-apple.systempreferences:com.apple.Startup-Disk-Settings.extension"},{"imagefile":"274a7034fbd6df9e540589f749b6e788a7cb2c37.png","title":"Storage","arg":"x-apple.systempreferences:com.apple.settings.Storage"},{"imagefile":"8be80f66c735b9215f033176ca3a1f10b9eee647.png","title":"Time Machine","arg":"x-apple.systempreferences:com.apple.Time-Machine-Settings.extension"},{"imagefile":"ba1f93b828dd0fb3d1e560f4c6136c2559085c07.png","title":"Touch ID &amp; Password","arg":"x-apple.systempreferences:com.apple.preferences.password"},{"imagefile":"e16de3bc677c439757e0e8afdf4ed335c62e5fac.png","title":"Trackpad","arg":"x-apple.systempreferences:com.apple.Trackpad-Settings.extension"},{"imagefile":"562e1db55f551f25aaad5b5fe6bc093db6c7cbdf.png","title":"Transfer or Reset","arg":"x-apple.systempreferences:com.apple.Transfer-Reset-Settings.extension"},{"imagefile":"1fb87c68a8c5473b9cfc5022c73368028e96ea60.png","title":"Users &amp; Groups","arg":"x-apple.systempreferences:com.apple.Users-Groups-Settings.extension"},{"imagefile":"21f335082f40c41dff1579577159589bb82dc2f0.png","title":"VPN","arg":"x-apple.systempreferences:com.apple.NetworkExtensionSettingsUI.NESettingsUIExtension"},{"imagefile":"58452ec64450c056f855996170876cad614a74d3.png","title":"Wallet &amp; Apple Pay","arg":"x-apple.systempreferences:com.apple.WalletSettingsExtension"},{"imagefile":"8296e25ce05a54f648f7a681e1ce0f201ba7e4fc.png","title":"Wallpaper","arg":"x-apple.systempreferences:com.apple.Wallpaper-Settings.extension"},{"imagefile":"4f910d01bf9e0ef305504af1ca3e271ad1ad9ce0.png","title":"Wi-Fi","arg":"x-apple.systempreferences:com.apple.wifi-settings-extension"}]</string>
 				<key>keyword</key>
 				<string>{var:keyword}</string>
 				<key>matchmode</key>
@@ -50,9 +50,9 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Select the preferene pane you wish to open</string>
+				<string>Select the settings pane you wish to open</string>
 				<key>title</key>
-				<string>Open chosen macOS 12 preference pane</string>
+				<string>Open chosen macOS settings pane</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -86,7 +86,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># Note 
+	<string># Note
 
 This workflow has been tested on macOS 13.0 and will not work on previous macOS versions. It is possible future changes (whether in macOS 13 or later) will stop this workflow working—either partially or fully.
 
@@ -99,7 +99,17 @@ I have chosen to keep the list of panes in alphabetical order—rather than allo
 
 # Acknowledgment
 
-I am indebted to comments on [this Github post](https://gist.github.com/rmcdongit/f66ff91e0dad78d4d6346a75ded4b751?permalink_comment_id=4258811) for enabling me to find identifiers for various Preference panes.</string>
+I am indebted to comments on [this Github post](https://gist.github.com/rmcdongit/f66ff91e0dad78d4d6346a75ded4b751?permalink_comment_id=4258811) for enabling me to find identifiers for various Preference panes.
+
+---
+
+**Version 1.1** 26/10/2022: added two further panes (`General` and `Passwords`) and updated Placeholder Title and Placeholder Subtext in workflow.
+
+**Version 1.2** 26/10/2022: updated name of workflow and improved workflow icon.
+
+**Version 1.21** 27/10/2022: small correction to Placeholder Title in workflow.
+
+**Version 1.21** 02/11/2022: added nine new panes (`About`, `Desktop &amp; Dock`, `Extensions`, `Family`, `Game Centre`, `Game Controllers`, `Mouse`, `Transfer or Reset`, and `VPN`) and icons.</string>
 	<key>uidata</key>
 	<dict>
 		<key>2739207C-A263-4FBD-A4E3-E1C7891D9DC1</key>
@@ -144,7 +154,7 @@ I am indebted to comments on [this Github post](https://gist.github.com/rmcdongi
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.0</string>
+	<string>1.3</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
