@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>app.alfredapp.stephenc.venturaprefpanes</string>
+	<string>app.alfred.stephenc.venturaprefpanes</string>
 	<key>category</key>
 	<string>Utilities</string>
 	<key>connections</key>
