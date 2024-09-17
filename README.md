@@ -3,10 +3,7 @@ Open macOS Settings Panes from list
 
 # Note 
 
-This workflow has been tested on macOS 14.4 and will not work on macOS versions prior to macOS 13. It is possible future changes (whether in macOS 14 or later) will stop this workflow working—either partially or fully.
-
-You do need to be running Alfred 5.5 (or later) to use this version (and later). If you are using an earlier version of Alfred please use [version 2.0](https://github.com/Stephen-Lon/Alfred-workflow-open-macos-settings-panes/releases/tag/v2.0) of this workflow.
-
+This workflow has been tested on macOS 15.0. If you are still using macOS 14 please use [version 2.7](https://github.com/Stephen-Lon/Alfred-workflow-open-macos-settings-panes/releases/tag/v2.7) of this workflow.
 
 # Usage
 
