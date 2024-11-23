@@ -664,6 +664,17 @@ cat <<EOF
       }
     },
     {
+      "uid": "Sharing → Remote Login",
+      "title": "Sharing → Remote Login",
+      "match": "sharing remote login ssh",
+      "subtitle": "Open the 'Sharing → Remote Login' pane",
+      "arg": "x-apple.systempreferences:com.apple.preferences.sharing?Services_RemoteLogin",
+      "autocomplete": "Sharing → Remote Login",
+      "icon": {
+        "path": "./Images/Sharing.png"
+      }
+    },
+    {
       "uid": "Sharing → Screen Sharing",
       "title": "Sharing → Screen Sharing",
       "subtitle": "Open the 'Sharing → Screen Sharing' pane",
