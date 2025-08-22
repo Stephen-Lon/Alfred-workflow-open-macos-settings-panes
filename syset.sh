@@ -314,21 +314,31 @@ cat <<EOF
       }
     },
     {
-      "uid": "Keyboard → Function Keys",
-      "title": "Keyboard → Function Keys",
+      "uid": "Keyboard → Shortcuts → Function Keys",
+      "title": "Keyboard → Shortcuts → Function Keys",
       "subtitle": "Open the 'Keyboard → Function Keys' pane",
       "arg": "x-apple.systempreferences:com.apple.Keyboard-Settings.extension?FunctionKeys",
-      "autocomplete": "Keyboard → Function Keys",
+      "autocomplete": "Keyboard → Shortcuts → Function Keys",
       "icon": {
         "path": "./Images/Keyboard.png"
       }
     },
     {
-      "uid": "Keyboard → Modifier Keys",
-      "title": "Keyboard → Modifier Keys",
+      "uid": "Keyboard → Shortcuts → Modifier Keys",
+      "title": "Keyboard → Shortcuts → Modifier Keys",
       "subtitle": "Open the 'Keyboard → Modifier Keys' pane",
       "arg": "x-apple.systempreferences:com.apple.preference.keyboard?Shortcuts",
-      "autocomplete": "Keyboard → Modifier Keys",
+      "autocomplete": "Keyboard → Shortcuts → Modifier Keys",
+      "icon": {
+        "path": "./Images/Keyboard.png"
+      }
+    },
+    {
+      "uid": "Keyboard → Input Sources",
+      "title": "Keyboard → Shortcuts",
+      "subtitle": "Open the 'Keyboard → Input Sources' pane",
+      "arg": "x-apple.systempreferences:com.apple.preference.keyboard?InputSources",
+      "autocomplete": "Keyboard → Input Sources",
       "icon": {
         "path": "./Images/Keyboard.png"
       }
