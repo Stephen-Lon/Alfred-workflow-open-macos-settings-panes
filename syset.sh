@@ -334,6 +334,26 @@ cat <<EOF
       }
     },
     {
+      "uid": "Keyboard → Shortcuts",
+      "title": "Keyboard → Shortcuts",
+      "subtitle": "Open the 'Keyboard → Shortcuts' pane",
+      "arg": "x-apple.systempreferences:com.apple.preference.keyboard?Shortcuts",
+      "autocomplete": "Keyboard → Shortcuts",
+      "icon": {
+        "path": "./Images/Keyboard.png"
+      }
+    },
+    {
+      "uid": "Keyboard → Input Sources",
+      "title": "Keyboard → Shortcuts",
+      "subtitle": "Open the 'Keyboard → Input Sources' pane",
+      "arg": "x-apple.systempreferences:com.apple.preference.keyboard?InputSources",
+      "autocomplete": "Keyboard → Input Sources",
+      "icon": {
+        "path": "./Images/Keyboard.png"
+      }
+    },
+    {
       "uid": "Keyboard → Text Replacements",
       "title": "Keyboard → Text Replacements",
       "subtitle": "Open the 'Keyboard → Text Replacements' pane",
