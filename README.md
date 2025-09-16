@@ -1,6 +1,14 @@
 # Alfred-workflow-open-macos-settings-panes
 Open macOS Settings Panes from list
 
+# Important note
+
+I am not further maintaining this workflow under macOS 26 and later as Alfred 5.7 natively supports:
+
+- searching macOS System Settings (Alfred Preferences → Default Results then add `System Settings` under `Essentials`); *and*
+- localisation of the Settings for the purposes of the search.
+---
+
 # Note 
 
 This workflow has been tested on macOS 15.0. If you are still using macOS 14 please use [version 2.7](https://github.com/Stephen-Lon/Alfred-workflow-open-macos-settings-panes/releases/tag/v2.7) of this workflow.
